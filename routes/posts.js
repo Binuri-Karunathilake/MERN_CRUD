@@ -38,7 +38,7 @@ router.get('/posts',(req,res) =>{
     });
 });
 
-//update posts
+//update post
 
 router.put('/post/update/:id',(req,res)=>{
     Posts.findByIdAndUpdate(
